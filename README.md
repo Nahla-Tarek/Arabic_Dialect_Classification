@@ -36,6 +36,9 @@ I used a Voting classifier that trains on linearsvc, multinomialNB, BernoulliNB
 - Assign every word embedding with its index in the tokenizer.
 - Padding sentences to maximum words length
 - Building Model consists of embedding layer, lstm with 128 units, dropout, and dense layer of 5000 units
+## Deployment
+Flask is used 
+<img src="/app.png" alt="My cool logo"/>
 
 
 
