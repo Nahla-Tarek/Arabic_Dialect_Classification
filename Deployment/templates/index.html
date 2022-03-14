@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+</style>
+</head>
+
+<body  style="background-image:url({{ url_for('static', filename='arabic_example.png') }});background-size: 700px 500px;background-repeat: no-repeat;background-position: center top 50px;"> 
+ <div class="login"  class="center" style="text-align:center;background-color:white;width: 600px;margin: auto;margin-top:200px;">
+	<h1 style="text-align:center;">Arabic Dialection classification</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('classify')}}"method="post">
+    	<input type="text" name="sentence" placeholder="sentence" required="required" />
+        
+
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">classify</button>
+    </form>
+
+   <br>
+   <br>
+   {{    prediction_text    }}
+
+ </div>
+
+
+</body>
+</html>
