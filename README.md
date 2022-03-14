@@ -3,10 +3,10 @@
 This project is about classifying Arabic tweets into 18 Arabic dialects covering 18 different countries in the Middle East and North Africa region.
 The dataset and the dialect identification problem were addressed in this paper https://arxiv.org/pdf/2005.06557.pdf
 The geographically adjacent countries have similar dialects such as 
-    - Maghreb, Tunisia, Libya, and algeria are in Meghreb region as shown in the above image 
-    - Egypt , Sudan are in nile basin region
-    - Jordan, lebanon, palestine, and syria are in levant region
-    - kuwait, Saudi Arabia, Arab Emirates, Oman, Bahrain, and Qatar are in gulf region
+- Maghreb, Tunisia, Libya, and algeria are in Meghreb region as shown in the above image 
+- Egypt , Sudan are in nile basin region
+- Jordan, lebanon, palestine, and syria are in levant region
+- kuwait, Saudi Arabia, Arab Emirates, Oman, Bahrain, and Qatar are in gulf region
     
 To faciliate the process and to have more efficient results. I divided the process into 2 stages:
 - first stage: predict to which region the tweet belongs 
